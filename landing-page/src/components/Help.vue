@@ -191,7 +191,6 @@ export default {
     .button-image
       transform: rotate(180deg) translateX(-10px)
 
-// Media Queries untuk Responsive Design
 
 // Large Desktop (1200px ke atas)
 @media (min-width: 1200px)
