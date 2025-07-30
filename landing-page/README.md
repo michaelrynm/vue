@@ -57,7 +57,7 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/landing-page.git
+git clone https://github.com/michaelrynm/vue.git
 cd landing-page
 ```
 
