@@ -31,7 +31,7 @@ To run this project locally, make sure you have the following installed:
 
 - **Node.js** `>= 16.x`  
 - **npm** `>= 8.x` or **Yarn** `>= 1.22`
-- Recommended: [VSCode](https://code.visualstudio.com/) with the [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) extension for Vue 3 support
+- Recommended: [VSCode](https://code.visualstudio.com/) with the extension for Vue 3 support
 
 To check your versions:
 
