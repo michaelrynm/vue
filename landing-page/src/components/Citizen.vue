@@ -177,8 +177,7 @@ export default {
       font-size: 1.5rem
       margin-top: 1rem
 
-// Media Queries untuk Responsive Design
-// Large Desktop (1200px+) - 4 kolom (default)
+// Large Desktop (1200px+)
 @media (max-width: 1199px)
     .citizen-container
         padding: 8rem 8rem
@@ -186,7 +185,7 @@ export default {
         grid-template-columns: repeat(3, 1fr)
         gap: 2.5rem
 
-// Tablet (768px - 1023px) - 3 kolom
+// Tablet (768px - 1023px)
 @media (max-width: 1023px)
     .citizen-container
         padding: 6rem 4rem
@@ -198,7 +197,7 @@ export default {
         grid-template-columns: repeat(3, 1fr)
         gap: 2rem
 
-// Small Tablet (600px - 767px) - 2 kolom
+// Small Tablet (600px - 767px)
 @media (max-width: 767px)
     .citizen-container
         padding: 4rem 2rem
@@ -219,7 +218,7 @@ export default {
         .citizen-card-description
             font-size: 1.3rem
 
-// Mobile (maksimal 599px) - 2 kolom (minimum sesuai permintaan)
+// Mobile (maksimal 599px)
 @media (max-width: 599px)
     .citizen-container
         padding: 3rem 1.5rem
