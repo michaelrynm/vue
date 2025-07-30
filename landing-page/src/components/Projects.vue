@@ -159,12 +159,10 @@ body
     padding: 3rem
     margin-top: 2.5rem
   
-  // Tablet portrait
   @media screen and (max-width: 768px)
     padding: 2.5rem
     margin-top: 2rem
   
-  // Mobile landscape
   @media screen and (max-width: 640px)
     padding: 2rem
     margin-top: 1.5rem
@@ -193,17 +191,14 @@ body
     z-index: 0
     box-sizing: border-box
     
-    // Mobile portrait - reduce border thickness
     @media screen and (max-width: 480px)
       border: 2px solid #ffffff
 
   &:hover
-    // Disable hover effects on touch devices
     @media (hover: hover) and (pointer: fine)
       &::after
         transform: translate(10px, -20px)
         
-        // Reduce transform distance on smaller screens
         @media screen and (max-width: 768px)
           transform: translate(8px, -15px)
         
@@ -213,7 +208,6 @@ body
       .project-card-content
         transform: translate(10px, -20px)
         
-        // Reduce transform distance on smaller screens
         @media screen and (max-width: 768px)
           transform: translate(8px, -15px)
         
