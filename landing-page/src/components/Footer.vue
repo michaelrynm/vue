@@ -101,10 +101,10 @@ export default {
 @media (max-width: 1199px)
   .footer-container
     padding: 8rem 8rem
-  
+
   .contact-title
     font-size: 4.5rem
-  
+
   .contact-description,
   .contact-email
     font-size: 2.8rem
@@ -116,21 +116,21 @@ export default {
     flex-direction: column
     gap: 4rem
     text-align: center
-  
+
   .footer-left
     align-items: center
-  
+
   .footer-right
     width: 100%
     justify-content: center
-  
+
   .contact-title
     font-size: 4rem
-  
+
   .contact-description,
   .contact-email
     font-size: 2.5rem
-  
+
   .footer-icon
     max-width: 300px
 
@@ -139,21 +139,21 @@ export default {
   .footer-container
     padding: 4rem 2rem
     gap: 3rem
-  
+
   .contact-title
     font-size: 3.5rem
-  
+
   .contact-description,
   .contact-email
     font-size: 2.2rem
-  
+
   .social-icons
     gap: 1.2rem
-  
+
   .social-icon
     width: 2.5rem
     height: 2.5rem
-  
+
   .footer-icon
     max-width: 250px
 
@@ -162,21 +162,21 @@ export default {
   .footer-container
     padding: 3rem 1.5rem
     gap: 2.5rem
-  
+
   .contact-title
     font-size: 3rem
-  
+
   .contact-description,
   .contact-email
     font-size: 2rem
-  
+
   .social-icons
     gap: 1rem
-  
+
   .social-icon
     width: 2.2rem
     height: 2.2rem
-  
+
   .footer-icon
     max-width: 200px
 
@@ -185,46 +185,46 @@ export default {
   .footer-container
     padding: 2.5rem 1rem
     gap: 2rem
-  
+
   .contact-title
     font-size: 2.5rem
-  
+
   .contact-description,
   .contact-email
     font-size: 1.8rem
-  
+
   .social-icons
     gap: 0.8rem
     flex-wrap: wrap
     justify-content: center
-  
+
   .social-icon
     width: 2rem
     height: 2rem
-  
+
   .footer-icon
     max-width: 180px
 
-// Mobile Extra Small (maksimal 359px)
+// Mobile Extra Small (359px)
 @media (max-width: 359px)
   .footer-container
     padding: 2rem 0.8rem
     gap: 1.5rem
-  
+
   .contact-title
     font-size: 2.2rem
-  
+
   .contact-description,
   .contact-email
     font-size: 1.6rem
-  
+
   .social-icons
     gap: 0.6rem
-  
+
   .social-icon
     width: 1.8rem
     height: 1.8rem
-  
+
   .footer-icon
     max-width: 150px
 </style>
