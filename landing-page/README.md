@@ -75,4 +75,4 @@ npm run dev
 ```
 
 ## 📸 Live Demo
-[Live Demo](https://vitejs.dev/](https://vue-vert-pi.vercel.app/)
+[Live Demo](https://vue-vert-pi.vercel.app/)
