@@ -3,6 +3,7 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
+// Import partner images
 import partner1 from '@/assets/partner1.jpg'
 import partner2 from '@/assets/partner2.png'
 import partner3 from '@/assets/partner3.png'
@@ -99,7 +100,7 @@ export default {
 .partners-list
   display: grid
   grid-template-columns: repeat(4, 1fr)
-  gap: 2rem // beri jarak antar kartu
+  gap: 2rem 
   width: 100%
   max-width: 100%
   box-sizing: border-box
@@ -119,7 +120,6 @@ export default {
       filter: grayscale(100%)
       object-fit: contain
 
-// Media Queries for Responsive Design
 
 // Large Desktop (1440px and up)
 @media (min-width: 1440px)
