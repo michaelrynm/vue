@@ -11,7 +11,6 @@ A responsive and animated landing page built with **Vue 3**, **Vite**, and **GSA
 - 📱 Fully responsive layout for all devices
 - 🎨 Modular and maintainable component structure
 - 🧩 Built with scoped Sass styles
-- 🔍 SEO-friendly structure and performance-oriented build
 
 ---
 
