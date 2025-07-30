@@ -73,5 +73,37 @@ npm install
 npm run dev
 ```
 
+### package.json
+```bash
+{
+  "name": "landing-page",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "prettier": "3.6.2",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "vite": "^7.0.6",
+    "vite-plugin-vue-devtools": "^8.0.0"
+  }
+}
+```
+
 ## 📸 Live Demo
 [Live Demo](https://vue-vert-pi.vercel.app/)
+
